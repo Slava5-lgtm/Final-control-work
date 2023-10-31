@@ -6,9 +6,13 @@
 Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt  Pictures  Videos
 
 touch Pets - создали папку "Pets"(Домашние животные)
+
 touch создали папку "Pack animals"(вьючные животные)
+
 sudo chmod a+wrx (имя папки) - добавляем права и доступ к файлу
+
 nano Pets заполняем
+
 #!/usr/bin/python3 первая строка обезательна
 
 собак - 10
@@ -16,6 +20,7 @@ nano Pets заполняем
 хомяков -3
 
 nano Packanimals
+
 !/usr/bin/python3
 
 
