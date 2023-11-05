@@ -11,3 +11,4 @@ cat Pets PackAnimals > f1
 mv f1 HumanFriends
 mkdir Животные
 mv HumanFriends Животные
+gh
