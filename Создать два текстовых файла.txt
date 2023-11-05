@@ -44,5 +44,22 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql> 
 
 4. Управление deb-пакетами
+
    - Установить и затем удалить deb-пакет, используя команду `dpkg`.
+   Качаем ZOOM
+   https://zoom.us/download?os=linux
+
+   Копируем с папки загрузки в домашнию папкуе
+      ━ sl : ~
+         ┗━ cp Загрузки/zoom_amd64.deb .
+         ┏━ sl : ~
+         ┗━ ls
+         Final-control-work   zoom_amd64.deb     Загрузки       'Рабочий стол'
+         Project             'Без имени 1.odt'   Изображения     Шаблоны
+         snap                 Видео              Музыка
+         tmp                  Документы          Общедоступные
+
+   Устоенавливаю ZOOM
+         ┏━ sl : ~
+         ┗━ sudo apt install ./zoom_amd64.deb
 
