@@ -22,7 +22,27 @@
    mv HumanFriends Животные
 
 3. Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную машину ”
-
+      sudo apt install mysql-server mysql-client
    - Подключить дополнительный репозиторий MySQL и установить один из пакетов из этого репозитория.
+
+4. Управление deb-пакетами
+   Установка MySQL в Ubuntu 22.04 из репозиториев разработчиков немного сложнее. Сначала необходимо добавить этот репозиторий в систему. Для загрузите deb пакет с конфигурацией репозитория из официального сайта:
+   ━ sl : ~
+┗━ sudo mysql
+[sudo] пароль для sl: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 14
+Server version: 8.0.35-0ubuntu0.22.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> 
+
 
 
